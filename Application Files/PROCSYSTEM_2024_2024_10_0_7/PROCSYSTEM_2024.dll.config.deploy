@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System">
+      <section name="DevExpress.LookAndFeel.Design.AppSettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+    </sectionGroup>
+    <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="PROCSYSTEM_2024.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <connectionStrings>
+    <add name="localhost_PURCHASING_Connection" connectionString="XpoProvider=MSSqlServer;data source=210.5.103.13,6001;user id=;password=;initial catalog=PURCHASING;Persist Security Info=true" />
+    <add name="localhost_PURCHASING_Connection 1" connectionString="XpoProvider=MSSqlServer;data source=210.5.103.13,6001;user id=;password=;initial catalog=PURCHASING;Persist Security Info=true" />
+    <add name="localhost_PURCHASING_Connection 2" connectionString="XpoProvider=MSSqlServer;data source=210.5.103.13,6001;user id=ADMIN;password=ADMIN@2023;initial catalog=PURCHASING;Persist Security Info=true" />
+    <add name="210.5.103.13,6001" connectionString="XpoProvider=MSSqlServer;data source=210.5.103.13,6001;user id=ADMIN;password=ADMIN@2023;initial catalog=TEST_PURCHASING;Persist Security Info=true" />
+    <add name="PROCSYSTEM_2024.Properties.Settings.TESTCONN" connectionString="Data Source=LAPTOP-UNOR3FF9\DEVELOPMENT;Initial Catalog=PROCSYS;Integrated Security=True;Encrypt=False;TrustServerCertificate=True"
+      providerName="System.Data.SqlClient" />
+  </connectionStrings>
+  <applicationSettings>
+    <DevExpress.LookAndFeel.Design.AppSettings>
+      <setting name="DefaultAppSkin" serializeAs="String">
+        <value>CompactSkin/WXI</value>
+      </setting>
+      <setting name="DefaultPalette" serializeAs="String">
+        <value>Office Colorful</value>
+      </setting>
+      <setting name="TouchUI" serializeAs="String">
+        <value></value>
+      </setting>
+      <setting name="CompactUI" serializeAs="String">
+        <value></value>
+      </setting>
+      <setting name="TouchScaleFactor" serializeAs="String">
+        <value></value>
+      </setting>
+      <setting name="DirectX" serializeAs="String">
+        <value></value>
+      </setting>
+      <setting name="RegisterUserSkins" serializeAs="String">
+        <value></value>
+      </setting>
+      <setting name="RegisterBonusSkins" serializeAs="String">
+        <value>true</value>
+      </setting>
+      <setting name="FontBehavior" serializeAs="String">
+        <value></value>
+      </setting>
+      <setting name="DefaultAppFont" serializeAs="String">
+        <value></value>
+      </setting>
+      <setting name="DPIAwarenessMode" serializeAs="String">
+        <value></value>
+      </setting>
+      <setting name="CustomPaletteCollection" serializeAs="Xml">
+        <value />
+      </setting>
+      <setting name="RegisterBonusSkins" serializeAs="String">
+        <value>True</value>
+      </setting>
+    </DevExpress.LookAndFeel.Design.AppSettings>
+  </applicationSettings>
+  <userSettings>
+    <PROCSYSTEM_2024.Properties.Settings>
+      <setting name="SQLConn" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ServerName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="DatabaseName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="UserName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="Password" serializeAs="String">
+        <value />
+      </setting>
+    </PROCSYSTEM_2024.Properties.Settings>
+  </userSettings>
+</configuration>
